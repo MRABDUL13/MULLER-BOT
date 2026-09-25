@@ -111,6 +111,14 @@
 *.pem
 *.key
 
+# WhatsApp sessions and runtime data
+sessions/*
+!sessions/.gitkeep
+tmp/*
+!tmp/.gitkeep
+data/*.bak
+node_modules/
+
 # Temporary files
 *.tmp
 *.temp

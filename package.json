@@ -1,0 +1,30 @@
+{
+  "name": "muller-bot",
+  "version": "1.0.0",
+  "description": "MULLER BOT — a modular WhatsApp bot built on Baileys",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "muller"
+  ],
+  "author": "MULLER TECH",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "baileys": "7.0.0-rc14",
+    "dotenv": "^16.4.7",
+    "jimp": "^1.6.0",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
